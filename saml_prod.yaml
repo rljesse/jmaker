@@ -1,0 +1,26 @@
+# URL to SimpleSAMLphp (may need to add the full URL for SSL)
+base_url_path: "/simplesamlphp_moodle_prod/"
+
+# Entity ID (Found in client's metadata XML)
+entity_id: "IDP_ENTITY_ID"
+
+# Directories
+cert_dir: "/mnt/data/certs/simplesamlphp/"
+data_dir: "/mnt/data/moodledata_prod/simplesamlphp/data/"
+temp_dir: "/mnt/data/moodledata_prod/tmp/simplesaml"
+metadata_dir: "/mnt/data/moodledata_prod/simplesaml_federation_data/prod/"
+
+# Metadata SSL Certificates
+metadata_sign_enable: "TRUE"
+metadata_privatekey: "saml_prod.pem"
+metadata_certificate: "saml_prod.crt"
+
+# Logging
+logging_process: "simplesamlphp_moodle_prod"
+logging_dir: "/mnt/data/moodledata_prod/simplesamlphp/"
+log_name: "simplesamlphp.log"
+
+# Technical Contact
+tech_contact: "SAML Administrator"
+tech_email: "noreply@remote-learner.net"
+

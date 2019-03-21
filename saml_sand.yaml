@@ -1,0 +1,26 @@
+# URL to SimpleSAMLphp (may need to add the full URL for SSL)
+base_url_path: "https://moodle.roanokechowan.edu/sandbox/simplesamlphp_moodle_sand/"
+
+# Entity ID (Found in client's metadata XML)
+entity_id: "IDP_ENTITY_ID"
+
+# Directories
+cert_dir: "/mnt/data/certs/simplesamlphp/"
+data_dir: "/mnt/data/moodledata_sand/simplesamlphp/data/"
+temp_dir: "/mnt/data/moodledata_sand/tmp/simplesaml"
+metadata_dir: "/mnt/data/moodledata_sand/simplesaml_federation_data/sand/"
+
+# Metadata SSL Certificates
+metadata_sign_enable: "TRUE"
+metadata_privatekey: "saml_sand.pem"
+metadata_certificate: "saml_sand.crt"
+
+# Logging
+logging_process: "simplesamlphp_moodle_sand"
+logging_dir: "/mnt/data/moodledata_sand/simplesamlphp/"
+log_name: "simplesamlphp.log"
+
+# Technical Contact
+tech_contact: "SAML Administrator"
+tech_email: "noreply@remote-learner.net"
+
